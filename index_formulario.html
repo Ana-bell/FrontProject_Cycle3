@@ -36,43 +36,44 @@
                <!--define la forma en que el elemento <input> aparece y se comporta-->
                <!--el valor <input/text> para la primera entrada, el valor predeterminado para este atributo.-->
               <!--Representa un campo de texto básico de una sola línea que acepta cualquier tipo de entrada de texto.-->
-              <!--Para definir el valor predeterminado de un elemento <input>, debes usar el atributo value--> 
-              <input type="text" id="nomb" name="nombre_usuario"> <!--campo de texto o de captura de una sola línea-->
+              <!--Para definir el valor predeterminado de un elemento <input>, debes usar el atributo value--><br>
+              <input type="text" size="35" maxlength="60" id="nomb" name="nombre_usuario"> <!--campo de texto o de captura de una sola línea-->
          </li>
 
          <li>
              <!--el atributo for en todos los elementos <label>, que toma como valor el id del
              control de formulario con el que está asociado; así es como asocias un formulario
               con su etiqueta.-->
-            <label for="name">apellido:</label><!--Etiqueta de texto-->
-            <input type="text" id="ape" name="apellido_usuario"> <!--campo de texto o de captura de una sola línea-->
+            <label for="name">apellido:</label><!--Etiqueta de texto--> <br>
+            <input type="text" size="35" maxlength="60" id="ape" name="apellido_usuario"> <!--campo de texto o de captura de una sola línea-->
        </li>
 
          <li>
-           <label for="name">Estatura:</label><!--Etiqueta de texto-->
-           <input type="text" id="est" name="estatura_usuario"> <!--campo de texto o de captura de una sola línea-->
+           <label for="name">Estatura:</label><!--Etiqueta de texto--> <br>
+           <input type="text" size="35" maxlength="60" id="est" name="estatura_usuario"> <!--campo de texto o de captura de una sola línea-->
          </li>
 
          <li>
-            <label for="name">Peso:</label><!--Etiqueta de texto-->
-            <input type="text" id="peso" name="peso_usuario"> <!--campo de texto o de captura de una sola línea-->
+            <label for="name">Peso:</label><!--Etiqueta de texto--> <br>
+            <input type="text" size="35" maxlength="60" id="peso" name="peso_usuario"> <!--campo de texto o de captura de una sola línea-->
           </li>
 
          <li>
            <label for="mail">Correo electrónico:</label>
            <!--define un campo de texto de una sola línea que solo acepta una dirección de 
-            correo electrónico y realiza validaciones.-->
-           <input type="email" id="mail" name="user_mail"> <!--campo de texto de una sola línea que acepta solo direcciones de correo electrónico-->
+            correo electrónico y realiza validaciones.--><br>
+           <input type="email" size="35" maxlength="60" id="mail" name="user_mail"> <!--campo de texto de una sola línea que acepta solo direcciones de correo electrónico-->
          </li>
          <li>
            <label for="msg">Mensaje:</label>
-           <!--definir un valor predeterminado para un elemento <textarea>, lo colocas entre las etiquetas de apertura y cierre del elemento <textarea>-->
-           <textarea id="msg" name="mensaje_usuario"></textarea><!--un campo de texto multilínea.-->
+           <!--definir un valor predeterminado para un elemento <textarea>, lo colocas entre las etiquetas de apertura y cierre del elemento <textarea>--> <br>
+           <textarea cols="37" id="msg" name="mensaje_usuario"></textarea><!--un campo de texto multilínea.-->
          </li>
         </ul>
 
         <li class="button">
             <button type="submit">Envíe su mensaje</button>
+            <input type="reset"> 
           </li>
           <!--El elemento <button> también acepta un atributo de type, que a su vez acepta uno de 
               estos tres valores: submit, reset o button.
